@@ -13,7 +13,7 @@ import torch.nn.functional as F
 from torch.autograd import Variable
 from torchvision.utils import save_image
 import torchvision.transforms as transforms
-from model.MUnet import D_Model
+from model.MUnet2 import D_Model
 from model.A import get_A
 #data_EUVP/train/trainB
 # ./Dataset/test/testA/## options../Mamba-UIE-HU/test_noref/U45/  ./Dataset_EUVP/test/testA/
@@ -71,7 +71,7 @@ for weights_path in weights_files:
         inp_img = transform(Image.open(path))
         inp_img = Variable(inp_img).type(Tensor).unsqueeze(0)
         s = time.time()
-        gen_img= model(inp_img)
+        gen_img, t_map = model(inp_img)
         # gen_img,t_map= model(inp_img)
 
 

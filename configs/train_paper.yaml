@@ -1,0 +1,28 @@
+
+# dataset info data_EUVP
+dataset_name: "UIEB" #根据数据加载这里必须要写UIEB，如果要写其他数据集，那么dataloder也需要做相应的更改。
+dataset_path: "./dataset_paper/"
+# "./Dataset_EUVP/"
+
+# image info
+chans: 3
+im_width: 256
+im_height: 256
+
+# other params
+val_interval: 1000 # steps
+ckpt_interval: 10  # epochs
+num_critic: 10
+lg_weight : 1
+
+# data_EUVP  Dataset
+gtr_dir_path: "./dataset1/test/testB"
+image_folder_path: "./dataset1/test/testA"
+
+
+#gtr_dir = "../Dataset/test/testB"
+
+
+
+
+ 
