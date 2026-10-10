@@ -1,1 +1,1 @@
-The complete code and pretrained weights will be uploaded upon acceptance of the paper
+The complete source code and pretrained weights of DDM-Net will be uploaded to this repository upon acceptance of the paper.
