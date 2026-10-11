@@ -19,7 +19,7 @@ DDM-Net is a physics-aware underwater image enhancement network that couples a V
 | `utils/` | Data loading and loss functions |
 | `tools/t_map.py` | SAM-guided transmission-map generation |
 | `tools/t_map_udcp.py` | UDCP prior transmission-map generation |
-| `evaluation/` | SSIM / PSNR / UIQM / UCIQE evaluation scripts |
+
 
 ## Environment
 
